@@ -113,7 +113,7 @@ For example, if you want to opt for **OS cache placement**, the Standard Window
 
 If you want to opt for **Temp disk placement**: the Standard Ubuntu server image from Marketplace is about 30 GiB. The temp disk size must be equal to or larger than 30 GiB to enable Ephemeral OS disk on the temporary storage. Standard_B4ms has a temporary storage size of 32 GiB, which can fit the 30 GiB OS disk. Upon creation of the VM, the temp disk space would be 2 GiB.
 
-If you place the ephemeral OS disk in the temporary storage disk, the final size of the temporary disk will equal the initial size of the temporary disk size minus the OS image size. If you place the ephemeral OS disk in the temporary storage disk, the final size of the temporary disk will equal the initial size of the temporary disk size minus the OS image size. In addition, the ephemeral OS disk will share the IOPS with the temporary storage disk as per the VM size you selected. Ephemeral
+If you place the ephemeral OS disk in the temporary storage disk, the final size of the temporary disk will equal the initial size of the temporary disk size minus the OS image size. In addition, the ephemeral OS disk will share the IOPS with the temporary storage disk as per the VM size you selected. Ephemeral
 disks also require that the VM size supports **Premium storage**. The sizes usually have an s in the name, like DSv2 and EsV3. For more information, see [Azure VM sizes](https://docs.microsoft.com/en-us/azure/virtual-machines/sizes) for
 details around which sizes support Premium storage.
 
